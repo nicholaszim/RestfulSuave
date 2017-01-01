@@ -7,8 +7,6 @@ open Routes
 
 [<EntryPoint>]
 let main argv = 
-    printfn "%A" argv
-    printfn "Starting server..."
     let app = routes
     let config = { defaultConfig with bindings = [ HttpBinding.mk HTTP IPAddress.Loopback 9000us ] }
     startWebServer config app

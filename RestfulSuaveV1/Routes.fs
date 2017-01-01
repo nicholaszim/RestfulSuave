@@ -9,6 +9,9 @@ let routes =
         let default_route = path "/" >=> OK "Welcome"
         let get_home = path "/home" >=> OK "hello from get home"
         let get_account = path "/account" >=> OK "hello from get account"
+        let post_home = path "/home" >=> OK "Hello post to home"
+        let post_about = path "/about" >=> OK "Hello post to about"
+
         choose 
             [ 
               GET >=> choose
@@ -19,7 +22,7 @@ let routes =
                 ]
               POST >=> choose
                 [
-                    path "/home" >=> OK "Hello post to home"
-                    path "/about" >=> OK "Hello post to about"
+                     post_home
+                     post_about
                 ]
             ]
