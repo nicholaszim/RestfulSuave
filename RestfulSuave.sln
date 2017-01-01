@@ -3,8 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{5A9F5191-6EED-4EDF-84EF-BA4AA95995FA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8BA2A7E8-608E-46E1-9994-08A706973FC1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RestfulSuaveV0", "RestfulSuaveV0\RestfulSuaveV0.fsproj", "{94335DAA-D5EC-4859-A115-97DA52DF9432}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RestfulSuaveV1", "RestfulSuaveV1\RestfulSuaveV1.fsproj", "{4FF34FB3-C299-4578-8974-9FE7822192D6}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RestfulSuaveV2", "RestfulSuaveV2\RestfulSuaveV2.fsproj", "{3AFE26CA-1022-4945-A1F1-BD04D2B622AA}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94335DAA-D5EC-4859-A115-97DA52DF9432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94335DAA-D5EC-4859-A115-97DA52DF9432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94335DAA-D5EC-4859-A115-97DA52DF9432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94335DAA-D5EC-4859-A115-97DA52DF9432}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FF34FB3-C299-4578-8974-9FE7822192D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FF34FB3-C299-4578-8974-9FE7822192D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FF34FB3-C299-4578-8974-9FE7822192D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FF34FB3-C299-4578-8974-9FE7822192D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFE26CA-1022-4945-A1F1-BD04D2B622AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFE26CA-1022-4945-A1F1-BD04D2B622AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFE26CA-1022-4945-A1F1-BD04D2B622AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFE26CA-1022-4945-A1F1-BD04D2B622AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94335DAA-D5EC-4859-A115-97DA52DF9432} = {8BA2A7E8-608E-46E1-9994-08A706973FC1}
+		{4FF34FB3-C299-4578-8974-9FE7822192D6} = {8BA2A7E8-608E-46E1-9994-08A706973FC1}
+		{3AFE26CA-1022-4945-A1F1-BD04D2B622AA} = {8BA2A7E8-608E-46E1-9994-08A706973FC1}
 	EndGlobalSection
 EndGlobal
